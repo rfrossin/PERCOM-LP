@@ -1,0 +1,6 @@
+{
+  "name": "PERCOM - Construção Comercial",
+  "description": "Uma landpage para a construtora Percom, especializada em varejo, com galeria de cases de sucesso.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
