@@ -31,7 +31,7 @@ export default function Home() {
             alt="Hero background"
             className="w-full h-full object-cover opacity-95" 
           />
-          <div className="absolute inset-0 bg-[var(--color-paper)]/85 backdrop-blur-[2px]" />
+          <div className="absolute inset-0 bg-[var(--color-paper)]/70 backdrop-blur-[2px]" />
           <div className="absolute inset-0 bg-black/5" />
         </div>
         <div className="max-w-[1024px] mx-auto w-full flex flex-col lg:border-x border-[var(--color-ink)] relative z-10">
@@ -359,7 +359,7 @@ export default function Home() {
             alt="Processo background"
             className="w-full h-full object-cover" 
           />
-          <div className="absolute inset-0 bg-[var(--color-paper)]/85 backdrop-blur-[3px]" />
+          <div className="absolute inset-0 bg-[var(--color-paper)]/70 backdrop-blur-[3px]" />
         </div>
         <div className="max-w-[1024px] mx-auto relative z-10">
           <SectionHeader title="Processo de contratação" />
