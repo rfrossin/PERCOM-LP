@@ -24,14 +24,15 @@ export default function Home() {
   return (
     <div className="bg-[var(--color-paper)] flex flex-col items-center">
       {/* HERO SECTION */}
-      <section className="relative w-full border-b border-[var(--color-ink)] pt-12 md:pt-20">
+      <section className="relative w-full border-b border-[var(--color-ink)] pt-12 md:pt-20 bg-black">
         <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
           <img 
             src="https://i.ibb.co/6RGGvt4T/Loja-PERCOM-HERO.jpg" 
             alt="Hero background"
-            className="w-full h-full object-cover" 
+            className="w-full h-full object-cover opacity-95" 
           />
           <div className="absolute inset-0 bg-[var(--color-paper)]/85 backdrop-blur-[2px]" />
+          <div className="absolute inset-0 bg-black/5" />
         </div>
         <div className="max-w-[1024px] mx-auto w-full flex flex-col lg:border-x border-[var(--color-ink)] relative z-10">
           <div className="p-10 relative flex flex-col justify-center min-h-[60vh]">
@@ -39,7 +40,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-[14px] uppercase tracking-[4px] text-[var(--color-grey-mid)] mb-3 font-bold"
+              className="text-[14px] uppercase tracking-[4px] text-[var(--color-paper)] drop-shadow-md mb-3 font-bold"
             >
               Construtora Comercial em Ribeirão Preto
             </motion.div>
@@ -51,7 +52,7 @@ export default function Home() {
               className="text-[64px] md:text-[82px] leading-[0.9] font-black uppercase tracking-[-3px] mb-6"
             >
               <span className="block text-[var(--color-ink)]">SEU PDV</span>
-              <span className="block text-[var(--color-grey-mid)]">PRONTO PARA</span>
+              <span className="block text-[var(--color-paper)] drop-shadow-md">PRONTO PARA</span>
               <span className="block text-[var(--color-ink)]">VENDER.</span>
             </motion.h1>
 
