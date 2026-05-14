@@ -175,13 +175,19 @@ export default function Home() {
 
       {/* BANNER 3: ETAPAS / POR QUE A PERCOM */}
       <section className="py-24 px-10 w-full border-b border-[var(--color-ink)]">
+        <div className="max-w-[1024px] mx-auto mb-12">
+          <h2 className="text-3xl md:text-[40px] font-black uppercase tracking-[-1.5px] leading-[1.1] max-w-3xl">
+            Te acompanhamos em todas as etapas da sua expansão.
+          </h2>
+        </div>
         <div className="max-w-[1024px] mx-auto border border-[var(--color-ink)] grid grid-cols-1 md:grid-cols-2 bg-[var(--color-grey-light)]">
           <div className="p-10 border-b md:border-b-0 md:border-r border-[var(--color-ink)]">
             <h3 className="text-[14px] font-black uppercase tracking-[1px] mb-6 border-b border-[var(--color-ink)] pb-4">Nossas Etapas</h3>
             <div className="space-y-6">
               {[
-                "Viabilidade e Projetos Executivos",
-                "Relacionamento com Marcas e Shoppings",
+                "Viabilidade e Projeto executivos",
+                "Relacionamento com entidades envolvidas (Shopping, Marcas, etc…)",
+                "Administração, Gestão e Entrega do seu PDV",
                 "Gestão de Múltiplas Frentes Simultâneas",
                 "Entrega e Plantão de Inauguração"
               ].map((item, i) => (
@@ -194,8 +200,9 @@ export default function Home() {
           </div>
           <div className="p-10 bg-[var(--color-ink)] text-[var(--color-paper)]">
             <h3 className="text-[14px] font-black uppercase tracking-[1px] mb-6 border-b border-[var(--color-grey-mid)]/30 pb-4">Por que a Percom?</h3>
-            <div className="text-[16px] leading-[1.6] font-medium text-[var(--color-grey-light)] pt-2 md:pt-6">
-              Foque no seu negócio, que focamos em entregar o espaço que ele precisa para CRESCER. Sem surpresas no caminho.
+            <div className="text-[16px] leading-[1.6] font-medium text-[var(--color-grey-light)] pt-2 md:pt-6 space-y-4">
+              <p>Seu trabalho: Contratar a Percom e nos abrir seu sonho de PDV.</p>
+              <p>Foque no seu negócio, que focamos em entregar o espaço que ele precisa para CRESCER!</p>
             </div>
             <button 
               onClick={handleWhatsApp}
