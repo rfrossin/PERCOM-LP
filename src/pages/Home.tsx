@@ -187,7 +187,7 @@ export default function Home() {
               {[
                 "Viabilidade e Projeto executivos",
                 "Relacionamento com entidades envolvidas (Shopping, Marcas, etc…)",
-                "Administração, Gestão e Entrega do seu PDV",
+                "Administração e Gestão das obras do seu PDV",
                 "Gestão de Múltiplas Frentes Simultâneas",
                 "Entrega e Plantão de Inauguração"
               ].map((item, i) => (
