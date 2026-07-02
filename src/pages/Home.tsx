@@ -62,7 +62,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-[18px] leading-[1.4] text-[var(--color-ink)] mb-10 max-w-[480px] font-medium"
             >
-              Somos a construtora com DNA do varejo atuando em todo o interior de São Paulo. Entregamos a construção da sua loja sem dor de cabeça, no prazo e com foco total na sua rentabilidade.
+              Uma Construtora com o DNA do varejo, atuando em todo o interior de São Paulo. Entregamos seu escritório, loja e empresa PRONTO, sem dor de cabeça, no prazo e com foco total no retorno do seu investimento.
             </motion.p>
 
             <motion.div 
@@ -102,14 +102,14 @@ export default function Home() {
             transition={{ ease: "linear", duration: 30, repeat: Infinity }}
           >
              {[...cases, ...cases].map((c, i) => (
-               <div key={i} className="relative w-[280px] h-[160px] shrink-0 overflow-hidden group border border-[var(--color-grey-mid)] bg-[var(--color-paper)]">
+               <Link to={`/cases/${c.id}`} key={i} className="relative w-[280px] h-[160px] shrink-0 overflow-hidden group border border-[var(--color-grey-mid)] bg-[var(--color-paper)] block cursor-pointer">
                  <img src={c.coverImage} alt={c.brandName} className="w-full h-full object-cover transition-all duration-700 opacity-90 group-hover:opacity-100" />
-                 <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-ink)] via-transparent to-transparent opacity-80" />
-                 <div className="absolute bottom-0 left-0 right-0 p-4 text-[var(--color-paper)]">
+                 <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-ink)] via-transparent to-transparent opacity-80 group-hover:opacity-60 transition-opacity duration-500" />
+                 <div className="absolute bottom-0 left-0 right-0 p-4 text-[var(--color-paper)] transition-transform duration-500 group-hover:-translate-y-1">
                    <p className="font-bold text-[14px] uppercase tracking-tight">{c.brandName}</p>
                    <p className="text-[10px] opacity-80 uppercase tracking-wide">{c.address}</p>
                  </div>
-               </div>
+               </Link>
              ))}
           </motion.div>
         </div>
