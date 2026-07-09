@@ -21,16 +21,25 @@ export default function Navbar() {
         </Link>
         
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-8">
-          <Link to="/" className="text-[13px] font-semibold text-[var(--color-paper)] uppercase tracking-[1px] hover:text-[var(--color-grey-mid)] transition-colors">
-            Projetos
+        <div className="hidden md:flex items-center gap-6">
+          <Link to="/sobre" className="text-[12px] font-semibold text-[var(--color-paper)] uppercase tracking-[1px] hover:text-[var(--color-grey-mid)] transition-colors">
+            A Percom
           </Link>
-          <Link to="/cases" className="text-[13px] font-semibold text-[var(--color-paper)] uppercase tracking-[1px] hover:text-[var(--color-grey-mid)] transition-colors">
-            Cases de Lojas
+          <Link to="/comercial" className="text-[12px] font-semibold text-[var(--color-paper)] uppercase tracking-[1px] hover:text-[var(--color-grey-mid)] transition-colors">
+            Comercial
+          </Link>
+          <Link to="/corporate" className="text-[12px] font-semibold text-[var(--color-paper)] uppercase tracking-[1px] hover:text-[var(--color-grey-mid)] transition-colors">
+            Corporate
+          </Link>
+          <Link to="/residencial" className="text-[12px] font-semibold text-[var(--color-paper)] uppercase tracking-[1px] hover:text-[var(--color-grey-mid)] transition-colors">
+            Residencial
+          </Link>
+          <Link to="/cases" className="text-[12px] font-semibold text-[var(--color-paper)] uppercase tracking-[1px] hover:text-[var(--color-grey-mid)] transition-colors">
+            Cases
           </Link>
           <button 
             onClick={handleWhatsApp}
-            className="px-5 py-2.5 bg-[var(--color-paper)] text-[var(--color-ink)] text-[12px] font-semibold uppercase tracking-[1px] hover:bg-[var(--color-grey-light)] transition-colors"
+            className="px-5 py-2.5 bg-[var(--color-paper)] text-[var(--color-ink)] text-[11px] font-semibold uppercase tracking-[1px] hover:bg-[var(--color-grey-light)] transition-colors"
           >
             Faça seu Orçamento
           </button>
@@ -45,27 +54,48 @@ export default function Navbar() {
         </button>
 
         {/* Mobile Menu */}
-        <div className={`fixed inset-0 bg-[var(--color-ink)] z-40 transition-transform duration-300 flex flex-col items-center justify-center gap-8 md:hidden ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+        <div className={`fixed inset-0 bg-[var(--color-ink)] z-40 transition-transform duration-300 flex flex-col items-center justify-center gap-6 md:hidden ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
           <Link 
-            to="/" 
+            to="/sobre" 
             onClick={() => setIsOpen(false)}
             className="text-lg font-semibold text-[var(--color-paper)] uppercase tracking-[2px] hover:text-[var(--color-grey-mid)] transition-colors"
           >
-            Projetos
+            A Percom
+          </Link>
+          <Link 
+            to="/comercial" 
+            onClick={() => setIsOpen(false)}
+            className="text-lg font-semibold text-[var(--color-paper)] uppercase tracking-[2px] hover:text-[var(--color-grey-mid)] transition-colors"
+          >
+            Comercial
+          </Link>
+          <Link 
+            to="/corporate" 
+            onClick={() => setIsOpen(false)}
+            className="text-lg font-semibold text-[var(--color-paper)] uppercase tracking-[2px] hover:text-[var(--color-grey-mid)] transition-colors"
+          >
+            Corporate
+          </Link>
+          <Link 
+            to="/residencial" 
+            onClick={() => setIsOpen(false)}
+            className="text-lg font-semibold text-[var(--color-paper)] uppercase tracking-[2px] hover:text-[var(--color-grey-mid)] transition-colors"
+          >
+            Residencial
           </Link>
           <Link 
             to="/cases" 
             onClick={() => setIsOpen(false)}
             className="text-lg font-semibold text-[var(--color-paper)] uppercase tracking-[2px] hover:text-[var(--color-grey-mid)] transition-colors"
           >
-            Cases de Lojas
+            Cases
           </Link>
           <button 
             onClick={() => {
               setIsOpen(false);
               handleWhatsApp();
             }}
-            className="mt-8 px-8 py-4 border-2 border-[var(--color-paper)] text-[var(--color-paper)] text-[14px] font-bold uppercase tracking-[1px] hover:bg-[var(--color-paper)] hover:text-[var(--color-ink)] transition-colors"
+            className="mt-6 px-8 py-4 border-2 border-[var(--color-paper)] text-[var(--color-paper)] text-[14px] font-bold uppercase tracking-[1px] hover:bg-[var(--color-paper)] hover:text-[var(--color-ink)] transition-colors"
           >
             Faça seu Orçamento
           </button>

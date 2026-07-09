@@ -13,11 +13,6 @@ export default function Footer() {
                 className="h-10 object-contain" 
               />
             </Link>
-            <h2 className="text-xl font-bold uppercase leading-[1.2] tracking-normal max-w-md">
-              Entregamos seu PDV, pronto para vender.
-              <br />
-              <span className="text-[var(--color-grey-mid)] font-semibold mt-2 block text-sm">No prazo, no padrão e sem dor para você e seu cliente.</span>
-            </h2>
           </div>
           
           <div>
@@ -35,6 +30,26 @@ export default function Footer() {
                 <a href="mailto:comercial.percom@gmail.com" className="text-[var(--color-grey-light)] hover:text-[var(--color-paper)] transition-colors block">
                   comercial.percom@gmail.com
                 </a>
+              </li>
+              <li>
+                <Link to="/sobre" className="text-[var(--color-grey-light)] hover:text-[var(--color-paper)] transition-colors block">
+                  A Percom
+                </Link>
+              </li>
+              <li>
+                <Link to="/comercial" className="text-[var(--color-grey-light)] hover:text-[var(--color-paper)] transition-colors block">
+                  Comercial
+                </Link>
+              </li>
+              <li>
+                <Link to="/corporate" className="text-[var(--color-grey-light)] hover:text-[var(--color-paper)] transition-colors block">
+                  Corporate
+                </Link>
+              </li>
+              <li>
+                <Link to="/residencial" className="text-[var(--color-grey-light)] hover:text-[var(--color-paper)] transition-colors block">
+                  Residencial
+                </Link>
               </li>
               <li>
                 <Link to="/cases" className="text-[var(--color-grey-light)] hover:text-[var(--color-paper)] transition-colors block">

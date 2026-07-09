@@ -3,6 +3,10 @@ import { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import Sobre from './pages/Sobre';
+import Comercial from './pages/Comercial';
+import Corporate from './pages/Corporate';
+import Residencial from './pages/Residencial';
 import Cases from './pages/Cases';
 import CaseDetail from './pages/CaseDetail';
 
@@ -23,6 +27,10 @@ export default function App() {
         <main className="flex-1 pt-20">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/sobre" element={<Sobre />} />
+            <Route path="/comercial" element={<Comercial />} />
+            <Route path="/corporate" element={<Corporate />} />
+            <Route path="/residencial" element={<Residencial />} />
             <Route path="/cases" element={<Cases />} />
             <Route path="/cases/:id" element={<CaseDetail />} />
           </Routes>

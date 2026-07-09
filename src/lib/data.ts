@@ -5,7 +5,7 @@ export interface CaseStudy {
   title: string;
   address: string;
   sqm: string;
-  segment: string;
+  segment: string; category?: string;
   coverImage: string;
   galleryImages: string[];
   history: string;
