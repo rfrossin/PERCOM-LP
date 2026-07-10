@@ -31,7 +31,7 @@ export default function CaseDetail() {
           </Link>
           
           <div className="flex flex-col md:flex-row gap-8 items-start md:items-end mb-8 border-b border-[var(--color-ink)] pb-12">
-            <h1 className="text-[48px] md:text-[64px] font-black uppercase tracking-[-2px] leading-[0.9]">
+            <h1 className="text-[36px] md:text-[64px] font-black uppercase tracking-[-2px] leading-[0.9]">
               <span className="block text-[14px] font-bold tracking-[2px] uppercase text-[var(--color-grey-mid)] mb-4">A história da Loja:</span>
               {caseData.brandName}
             </h1>

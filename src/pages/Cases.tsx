@@ -21,7 +21,7 @@ export default function Cases() {
       <div className="max-w-[1024px] mx-auto relative z-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12 border-b border-[var(--color-ink)] pb-12">
           <div>
-            <h1 className="text-[56px] md:text-[82px] font-black uppercase tracking-[-3px] leading-[0.9]">
+            <h1 className="text-[40px] md:text-[82px] font-black uppercase tracking-[-3px] leading-[0.9]">
               NOSSAS <br className="hidden md:block" /> HISTÓRIAS <span className="text-[var(--color-grey-mid)]">DE SUCESSO.</span>
             </h1>
           </div>

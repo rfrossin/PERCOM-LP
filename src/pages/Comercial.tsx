@@ -49,7 +49,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
-              className="text-[64px] md:text-[82px] leading-[0.9] font-black uppercase tracking-[-3px] mb-6"
+              className="text-[48px] md:text-[82px] leading-[0.9] font-black uppercase tracking-[-3px] mb-6"
             >
               <span className="block text-[var(--color-ink)]">SEU PDV</span>
               <span className="block text-[var(--color-paper)] drop-shadow-md">PRONTO PARA</span>
@@ -280,7 +280,7 @@ export default function Home() {
             >
               <LayoutTemplate className="w-[300px] h-[300px]" />
             </motion.div>
-            <h3 className="text-[32px] md:text-[40px] leading-[1] font-black uppercase tracking-[-1px] mb-8 relative z-10">O que significa ser Pró-Varejo?</h3>
+            <h3 className="text-[28px] md:text-[40px] leading-[1] font-black uppercase tracking-[-1px] mb-8 relative z-10">O que significa ser Pró-Varejo?</h3>
             <div className="space-y-6 relative z-10">
                <p className="text-[16px] leading-[1.6] text-[var(--color-grey-light)] font-medium">Não construímos apenas paredes, construímos instrumentos de venda.</p>
                <p className="text-[16px] leading-[1.6] text-[var(--color-grey-light)] font-medium">Entendemos que atraso em inauguração não é só um incômodo, é perda diária de faturamento.</p>
@@ -391,7 +391,7 @@ export default function Home() {
             {/* ETAPA 7: INÍCIO EM DESTAQUE */}
             <div className="p-12 md:p-20 border-b border-[var(--color-ink)] bg-[var(--color-ink)] text-[var(--color-paper)] flex flex-col items-center text-center">
               <div className="text-[12px] font-black uppercase tracking-[2px] text-[var(--color-grey-mid)] border-b border-[var(--color-grey-mid)]/30 pb-2 mb-6">Etapa 07</div>
-              <h4 className="text-[40px] md:text-[64px] font-black uppercase tracking-[-2px] leading-[0.9] mb-6">Início</h4>
+              <h4 className="text-[32px] md:text-[64px] font-black uppercase tracking-[-2px] leading-[0.9] mb-6">Início</h4>
               <p className="text-[var(--color-paper)] font-medium text-lg leading-[1.4] max-w-xl opacity-80">Kickoff da obra, relatórios periódicos e acompanhamento ostensivo.</p>
             </div>
           </div>
@@ -427,7 +427,7 @@ export default function Home() {
           </div>
 
           <div className="text-center pt-16 border-t border-[var(--color-ink)] max-w-4xl mx-auto">
-             <h2 className="text-[40px] md:text-[64px] font-black uppercase tracking-[-2px] leading-[0.9] text-[var(--color-ink)] mb-8">
+             <h2 className="text-[32px] md:text-[64px] font-black uppercase tracking-[-2px] leading-[0.9] text-[var(--color-ink)] mb-8">
                Entregamos seu PDV,<br/> pronto para vender.
              </h2>
              <p className="text-[16px] md:text-[20px] font-bold uppercase tracking-[1px] text-[var(--color-ink)] opacity-80 mb-8">

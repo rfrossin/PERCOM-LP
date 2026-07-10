@@ -21,10 +21,10 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="max-w-3xl bg-[var(--color-paper)]/90 p-8 md:p-12 border border-[var(--color-ink)] backdrop-blur-sm"
           >
-            <h1 className="text-[56px] md:text-[80px] font-black uppercase tracking-[-2px] leading-[0.9] text-[var(--color-ink)] mb-8">
+            <h1 className="text-[40px] md:text-[80px] font-black uppercase tracking-[-2px] leading-[0.9] text-[var(--color-ink)] mb-8">
               Grupo <br /> Percom
             </h1>
-            <p className="text-[18px] md:text-[24px] font-medium text-[var(--color-ink)] mb-12 max-w-2xl leading-relaxed">
+            <p className="text-[16px] md:text-[24px] font-medium text-[var(--color-ink)] mb-12 max-w-2xl leading-relaxed">
               Soluções completas de engenharia e construção para o seu negócio, 
               sua empresa ou sua residência. Entregamos excelência e previsibilidade 
               em cada etapa do projeto.
@@ -49,7 +49,7 @@ export default function Home() {
         <div className="max-w-[1024px] mx-auto px-6 md:px-10">
           <div className="mb-16 text-center">
             <h2 className="text-[12px] font-bold tracking-[2px] uppercase text-[var(--color-ink)] border-b border-[var(--color-ink)] pb-2 inline-block mb-4">Nossas Verticais</h2>
-            <h3 className="text-[40px] md:text-[56px] font-black uppercase tracking-[-1px] leading-[1] text-[var(--color-ink)]">
+            <h3 className="text-[32px] md:text-[56px] font-black uppercase tracking-[-1px] leading-[1] text-[var(--color-ink)]">
               Especialistas em <br/> Construir
             </h3>
           </div>
@@ -108,7 +108,7 @@ export default function Home() {
         </div>
          <div className="max-w-[1024px] mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center gap-12 relative z-10">
             <div className="flex-1 bg-[var(--color-paper)]/90 p-8 md:p-12 border border-[var(--color-ink)] backdrop-blur-sm">
-               <h2 className="text-[32px] md:text-[48px] font-black uppercase tracking-[-1px] leading-[1] text-[var(--color-ink)] mb-6">Nossa <br/> Trajetória</h2>
+               <h2 className="text-[28px] md:text-[48px] font-black uppercase tracking-[-1px] leading-[1] text-[var(--color-ink)] mb-6">Nossa <br/> Trajetória</h2>
                <p className="text-[16px] font-medium text-[var(--color-ink)] leading-[1.6] mb-8">
                   Com anos de experiência em execução de obras desafiadoras, o Grupo Percom se consolidou como um parceiro de confiança para quem busca excelência, prazo e qualidade, seja no varejo, mundo corporativo ou alto padrão residencial.
                </p>

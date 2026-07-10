@@ -12,10 +12,10 @@ export default function Sobre() {
             transition={{ duration: 0.8 }}
             className="max-w-3xl"
           >
-            <h1 className="text-[56px] md:text-[80px] font-black uppercase tracking-[-2px] leading-[0.9] mb-8">
+            <h1 className="text-[40px] md:text-[80px] font-black uppercase tracking-[-2px] leading-[0.9] mb-8">
               A Percom
             </h1>
-            <p className="text-[18px] md:text-[24px] font-medium opacity-80 max-w-2xl leading-relaxed">
+            <p className="text-[16px] md:text-[24px] font-medium opacity-80 max-w-2xl leading-relaxed">
               Construindo solidez através de execução impecável e foco no cliente.
             </p>
           </motion.div>
@@ -34,7 +34,7 @@ export default function Sobre() {
          <div className="max-w-[1024px] mx-auto px-6 md:px-10 relative z-10">
             <div className="flex flex-col md:flex-row gap-16">
                <div className="md:w-1/3">
-                  <h2 className="text-[32px] md:text-[40px] font-black uppercase tracking-[-1px] leading-[1] text-[var(--color-ink)] mb-6 sticky top-24">Nossa <br/> História</h2>
+                  <h2 className="text-[28px] md:text-[40px] font-black uppercase tracking-[-1px] leading-[1] text-[var(--color-ink)] mb-6 sticky top-24">Nossa <br/> História</h2>
                </div>
                <div className="md:w-2/3 space-y-8 text-[16px] leading-[1.6] font-medium text-[var(--color-ink)] bg-[var(--color-paper)]/90 p-8 md:p-12 border border-[var(--color-ink)] backdrop-blur-sm">
                   <p>O Grupo Percom nasceu da percepção de uma lacuna no mercado da construção civil: a necessidade de empresas que aliassem conhecimento técnico com um atendimento extremamente profissional e voltado ao retorno do investimento de seus clientes.</p>
@@ -48,7 +48,7 @@ export default function Sobre() {
       <section className="py-24 border-b border-[var(--color-ink)]">
          <div className="max-w-[1024px] mx-auto px-6 md:px-10">
             <div className="mb-8">
-              <h2 className="text-[32px] md:text-[40px] font-black uppercase tracking-[-1px] leading-[1] text-[var(--color-ink)] mb-12">
+              <h2 className="text-[28px] md:text-[40px] font-black uppercase tracking-[-1px] leading-[1] text-[var(--color-ink)] mb-12">
                 Nossos Sócios
               </h2>
               
