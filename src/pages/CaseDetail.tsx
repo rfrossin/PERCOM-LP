@@ -1,3 +1,4 @@
+import SEO from "../components/SEO";
 import { useParams, Link } from 'react-router-dom';
 import { cases } from '../lib/data';
 import { ArrowLeft, MapPin, Maximize2, Tag } from 'lucide-react';
@@ -20,6 +21,7 @@ export default function CaseDetail() {
 
   return (
     <div className="bg-[var(--color-paper)] min-h-screen py-24 px-10 relative">
+      <SEO title={`Percom Construtora | ${caseData.title}`} description={caseData.description} image={caseData.images[0]} />
       <div className="max-w-[1024px] mx-auto relative z-10">
         <div className="mb-16">
           <Link 

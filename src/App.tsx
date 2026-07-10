@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
+import { HelmetProvider } from 'react-helmet-async';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -20,23 +21,25 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <div className="min-h-screen flex flex-col font-sans text-[var(--color-ink)] selection:bg-[var(--color-ink)] selection:text-[var(--color-paper)]">
-        <Navbar />
-        <main className="flex-1 pt-20">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/sobre" element={<Sobre />} />
-            <Route path="/comercial" element={<Comercial />} />
-            <Route path="/corporate" element={<Corporate />} />
-            <Route path="/residencial" element={<Residencial />} />
-            <Route path="/cases" element={<Cases />} />
-            <Route path="/cases/:id" element={<CaseDetail />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <HelmetProvider>
+      <Router>
+        <ScrollToTop />
+        <div className="min-h-screen flex flex-col font-sans text-[var(--color-ink)] selection:bg-[var(--color-ink)] selection:text-[var(--color-paper)]">
+          <Navbar />
+          <main className="flex-1 pt-20">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/sobre" element={<Sobre />} />
+              <Route path="/comercial" element={<Comercial />} />
+              <Route path="/corporate" element={<Corporate />} />
+              <Route path="/residencial" element={<Residencial />} />
+              <Route path="/cases" element={<Cases />} />
+              <Route path="/cases/:id" element={<CaseDetail />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </HelmetProvider>
   );
 }

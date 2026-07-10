@@ -1,9 +1,11 @@
+import SEO from "../components/SEO";
 import { motion } from 'motion/react';
 import { Users, Target, ShieldCheck } from 'lucide-react';
 
 export default function Sobre() {
   return (
     <div className="bg-[var(--color-paper)] min-h-screen">
+      <SEO title="GRUPO PERCOM | Construção Especializada" description="A Percom é uma construtora e incorporadora especializada em múltiplos segmentos, dividida em 4 verticais de atuação: Corporativa/Industrial, Comercial, Residencial e Incorporação." image="https://i.ibb.co/VcFJb7d3/GRUPO.jpg" />
       <section className="relative pt-24 pb-20 md:pt-32 md:pb-32 overflow-hidden border-b border-[var(--color-ink)] bg-[var(--color-ink)] text-[var(--color-paper)]">
         <div className="max-w-[1024px] mx-auto px-6 md:px-10 relative z-10">
           <motion.div

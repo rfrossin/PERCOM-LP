@@ -1,3 +1,4 @@
+import SEO from "../components/SEO";
 import { motion } from 'motion/react';
 import { ArrowRight, Building2, HardHat, Home as HomeIcon } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -5,6 +6,7 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div className="bg-[var(--color-paper)] min-h-screen">
+      <SEO title="GRUPO PERCOM | Construção Especializada" description="A Percom é uma construtora e incorporadora especializada em múltiplos segmentos, dividida em 4 verticais de atuação: Corporativa/Industrial, Comercial, Residencial e Incorporação." image="https://i.ibb.co/VcFJb7d3/GRUPO.jpg" />
       <section className="relative pt-24 pb-20 md:pt-32 md:pb-32 overflow-hidden border-b border-[var(--color-ink)]">
         <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
           <img 
@@ -120,7 +122,7 @@ export default function Home() {
                </Link>
             </div>
             <div className="flex-1 w-full aspect-square md:aspect-[4/3] border border-[var(--color-ink)] bg-[var(--color-grey-light)] overflow-hidden">
-               <img src="https://images.unsplash.com/photo-1541888086425-d81bb19240f5?auto=format&fit=crop&q=80&w=2070" alt="Obra Grupo Percom" className="w-full h-full object-cover grayscale opacity-80" />
+               <img src="https://i.ibb.co/VcFJb7d3/GRUPO.jpg" alt="Obra Grupo Percom" className="w-full h-full object-cover grayscale opacity-80" />
             </div>
          </div>
       </section>

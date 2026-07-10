@@ -1,3 +1,4 @@
+import SEO from "../components/SEO";
 import { motion } from 'motion/react';
 import { cases } from '../lib/data';
 import { ArrowRight, CheckCircle2, Timer, LayoutTemplate, Briefcase, ChevronRight, TrendingUp, HandCoins, HardHat } from 'lucide-react';
@@ -23,6 +24,7 @@ const SectionHeader = ({ title, subtitle }: { title: string, subtitle?: string }
 export default function Home() {
   return (
     <div className="bg-[var(--color-paper)] flex flex-col items-center">
+      <SEO title="Percom Construtora | Alto Padrão Em Ribeirão Preto" description="A Percom tem como foco de sua atuação residencial, construir e cuidar dos imóveis de clientes com Alto Padrão de qualidade de SERVIÇO, RELACIONAMENTO e PRODUTO FINAL em Ribeirão Preto e Região." image="https://i.ibb.co/PzhDMrDt/Chat-GPT-Image-9-de-jul-de-2026-17-51-20.png" />
       {/* HERO SECTION */}
       <section className="relative w-full border-b border-[var(--color-ink)] pt-12 md:pt-20 bg-black">
         <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">

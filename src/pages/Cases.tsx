@@ -1,3 +1,4 @@
+import SEO from "../components/SEO";
 import { useState } from 'react';
 import { cases } from '../lib/data';
 import { MapPin, ArrowLeft } from 'lucide-react';
@@ -18,6 +19,7 @@ export default function Cases() {
 
   return (
     <div className="bg-[var(--color-paper)] min-h-screen py-24 px-6 md:px-10 relative">
+      <SEO title="Percom Construtora | Cases de Sucesso" description="Veja nosso portfólio de obras entregues no interior de São Paulo." image="https://i.ibb.co/VcFJb7d3/GRUPO.jpg" />
       <div className="max-w-[1024px] mx-auto relative z-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12 border-b border-[var(--color-ink)] pb-12">
           <div>

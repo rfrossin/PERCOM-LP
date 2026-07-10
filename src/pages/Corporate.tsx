@@ -1,3 +1,4 @@
+import SEO from "../components/SEO";
 import { motion } from 'motion/react';
 import { cases } from '../lib/data';
 import { ArrowRight, CheckCircle2, Timer, LayoutTemplate, Briefcase, ChevronRight, TrendingUp, HandCoins, HardHat } from 'lucide-react';
@@ -23,6 +24,7 @@ const SectionHeader = ({ title, subtitle }: { title: string, subtitle?: string }
 export default function Home() {
   return (
     <div className="bg-[var(--color-paper)] flex flex-col items-center">
+      <SEO title="Percom Construtora | Obras Corporativas e Industriais" description="A Percom trabalha no segmento CORPORATE com foco em gerar RETORNO sobre o investimento de seus clientes, construindo espaços que suportem o crescimento e operação de suas empresas." image="https://i.ibb.co/zVc73X9W/In-cio-de-Projeto-PERCOM-png.jpg" />
       {/* HERO SECTION */}
       <section className="relative w-full border-b border-[var(--color-ink)] pt-12 md:pt-20 bg-black">
         <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
