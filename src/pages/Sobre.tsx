@@ -57,27 +57,25 @@ export default function Sobre() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16">
                 <div className="flex flex-col group">
                   <div className="aspect-[3/4] overflow-hidden mb-6 border border-[var(--color-ink)] bg-[var(--color-grey-light)]">
-                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800" alt="Arq. Fabio Marzola" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+                    <img src="https://i.ibb.co/N6FpL8Js/Arq-Fabio-Marzola.jpg" alt="Arq. Fabio Marzola" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
                   </div>
                   <h3 className="text-[20px] font-black uppercase tracking-tight text-[var(--color-ink)] mb-2">Arq. Fabio Marzola</h3>
                   <p className="text-[14px] font-medium text-[var(--color-ink)] opacity-80 leading-[1.6]">
                     Especialista em design estratégico e concepção de projetos, liderando a visão estética e funcional de cada obra com excelência arquitetônica.
                   </p>
                 </div>
-
                 <div className="flex flex-col group">
                   <div className="aspect-[3/4] overflow-hidden mb-6 border border-[var(--color-ink)] bg-[var(--color-grey-light)]">
-                    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800" alt="Eng. Paulo Marques" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+                    <img src="https://i.ibb.co/sd82p3Hm/Eng-Paulo-Marques.jpg" alt="Eng. Paulo Marques" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
                   </div>
                   <h3 className="text-[20px] font-black uppercase tracking-tight text-[var(--color-ink)] mb-2">Eng. Paulo Marques</h3>
                   <p className="text-[14px] font-medium text-[var(--color-ink)] opacity-80 leading-[1.6]">
                     Focado na viabilidade estrutural e inovação técnica. Garante que as complexidades de engenharia sejam resolvidas com precisão e segurança.
                   </p>
                 </div>
-
                 <div className="flex flex-col group">
                   <div className="aspect-[3/4] overflow-hidden mb-6 border border-[var(--color-ink)] bg-[var(--color-grey-light)]">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800" alt="Eng. Fabrício Coelho" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+                    <img src="https://i.ibb.co/wF3RvnMg/Eng-Fabr-cio-Coelho.jpg" alt="Eng. Fabrício Coelho" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
                   </div>
                   <h3 className="text-[20px] font-black uppercase tracking-tight text-[var(--color-ink)] mb-2">Eng. Fabrício Coelho</h3>
                   <p className="text-[14px] font-medium text-[var(--color-ink)] opacity-80 leading-[1.6]">
@@ -87,7 +85,7 @@ export default function Sobre() {
               </div>
 
               <div className="aspect-video md:aspect-[21/9] overflow-hidden border border-[var(--color-ink)] bg-[var(--color-grey-light)]">
-                <img src="https://images.unsplash.com/photo-1504307651254-35680f356f58?auto=format&fit=crop&q=80&w=2070" alt="Sócios do Grupo Percom" className="w-full h-full object-cover grayscale opacity-90 hover:grayscale-0 hover:opacity-100 transition-all duration-500" />
+                <img src="https://i.ibb.co/0VFyMNTb/S-cios.jpg" alt="Sócios do Grupo Percom" className="w-full h-full object-cover grayscale opacity-90 hover:grayscale-0 hover:opacity-100 transition-all duration-500" />
               </div>
             </div>
          </div>
