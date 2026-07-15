@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div className="bg-[var(--color-paper)] min-h-screen">
-      <SEO title="GRUPO PERCOM | Construção Especializada" description="A Percom é uma construtora e incorporadora especializada em múltiplos segmentos, dividida em 4 verticais de atuação: Corporativa/Industrial, Comercial, Residencial e Incorporação." image="https://i.ibb.co/VcFJb7d3/GRUPO.jpg" />
+      <SEO title="Percom Construtora | Sua Obra Sem Dor de Cabeça" description="A Percom realizada Obras Comerciais, Corporativas e Residenciais de Alto Padrão em todo o Interior de SP, com Prazo Previsível, Custos Controlados, Padrões Mantidos e com a Qualidade da Entrega Confiável!" image="https://i.ibb.co/VcFJb7d3/GRUPO.jpg" />
       <section className="relative pt-24 pb-20 md:pt-32 md:pb-32 overflow-hidden border-b border-[var(--color-ink)]">
         <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
           <img 
